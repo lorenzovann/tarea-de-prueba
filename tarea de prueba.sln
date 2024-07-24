@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Courses", "Courses", "{B1AD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cursos.Common", "Cursos.Common\Cursos.Common.csproj", "{B461753C-4AE6-46BB-A607-67518A8A070C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Liskov", "Liskov", "{9C8E84EF-F6C0-4732-BD6D-FCAD672825F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "liskov.data", "liskov.data\liskov.data.csproj", "{2BDF0C63-3432-48DC-AA6E-91EC0A639488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{B461753C-4AE6-46BB-A607-67518A8A070C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B461753C-4AE6-46BB-A607-67518A8A070C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B461753C-4AE6-46BB-A607-67518A8A070C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDF0C63-3432-48DC-AA6E-91EC0A639488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDF0C63-3432-48DC-AA6E-91EC0A639488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDF0C63-3432-48DC-AA6E-91EC0A639488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDF0C63-3432-48DC-AA6E-91EC0A639488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{27BA4FBA-B529-4F8F-AE01-DAACDA4A0A22} = {6AACA962-EAE6-41D9-83CB-4CCFF94B4217}
 		{B461753C-4AE6-46BB-A607-67518A8A070C} = {B1ADA1B8-8AB6-4E30-A655-B89904C8C6D4}
+		{2BDF0C63-3432-48DC-AA6E-91EC0A639488} = {9C8E84EF-F6C0-4732-BD6D-FCAD672825F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A71BB2E4-5A27-4F81-8EB1-CBF8DA0EF501}

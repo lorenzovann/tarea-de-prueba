@@ -9,7 +9,7 @@ namespace Cursos.Common
 
         public void Subscribe(Student std)
         {
-            Console.WriteLine($"Ha sido inscrito en el curso presencial {Title}");
+            Console.WriteLine(std.Name=$"Ha sido inscrito en el curso presencial {Title}");
         }
     }
 }
